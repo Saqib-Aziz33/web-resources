@@ -19,7 +19,3 @@ function randNum(){
     num = Math.floor(num);
     return num;
 }
-
-let copyRig = document.getElementById(`copyright`);
-let d = new Date();
-copyRig.innerHTML = d.getFullYear();
