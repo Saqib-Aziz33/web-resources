@@ -8,7 +8,7 @@
     --nav-text-color: #ffffff;
     --cus-span-color: #00A591;
     --clr--bg: #464646;
-    --clr-bg-white: #eae6da27;
+    --clr-bg-white: #ecf0f1;
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -76,13 +76,13 @@ span{
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: var(--clr-bg-white);
+    background-color: var(--nav-text-color);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 .dropdown-content a{
     color: var(--cus-span-color);
-    padding: 10px 16px;
+    padding: 10px 4px;
     text-decoration: none;
     display: block;
 }
