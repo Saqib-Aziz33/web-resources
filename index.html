@@ -1,276 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Development | Resources</title>
-  <link rel="shortcut icon" href="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development | Resources</title>
+    <link rel="shortcut icon" href="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" type="image/x-icon">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css">
 
+
+    
 </head>
+<body class="bg-secondary text-light">
 
-<body>
-
-
-  <header class="navbar">
-    <div class="container">
-      <div class="logo" id="color-changer" title="Click me to change background colour">
-        <i class="fa fa-desktop fa-3x"></i>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#bootstrap">Bootstrap</a></li>
-          <li><a href="#fontAwesome">Font Awesome</a></li>
-          <li><a href="#images">Images</a></li>
-          <li><a href="#vector">Vectors</a></li>
-          <li class="dropdown">
-            <a href="#">More</a>
-            <div class="dropdown-content">
-              <a href="#designs">Designs</a>
-              <a href="#js-animation">JS Animations</a>
-              <a href="#css-genrators">CSS Generators</a>
-            </div>
-          </li>
-        </ul>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fa fa-desktop fa-3x"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#bootstrap">Bootstrap</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fontawesome">Font Awesome</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#images">Images</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#vectors">Vectors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#designs">Designs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#css">Css Generators</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#js">Javascript</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-    </div>
-  </header>
+    <!-- nav -->
 
-
-
-
-
-
-
-
-  <main role="main">
-
-    <!-- Bootstrap section ------------------>
-    <section id="bootstrap" class="s-margin" data-aos="fade-up">
-      <div class="card">
-        <h1>Bootstrap <span>4.6</span></h1>
-        <div class="grid">
-          <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-social-logo.png"
-            alt="Bootstrap cover image">
-          <div class="grid-links">
-            <h3><a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/" target="_blank">Offical</a>
-            </h3>
-            <h3><a href="https://www.w3schools.com/bootstrap4/" target="_blank">W3-schools</a></h3>
-
-            <h3><a href="https://startbootstrap.com/" target="_blank">Start Bootstrap</a></h3>
-          </div>
+    
+    <!-- bootstrap section -->
+    <section id="bootstrap" class="container bg-dark p-4 rounded my-5">
+        <h2 class="text-center text-uppercase display-4 fw-bold">Bootstrap <span class="text-warning">v(4, 5)</span></h2>
+        <div class="row">
+            <div class="col-lg-6 mt-2">
+                <img class="img-fluid" src="./img/bootstrap.jpg" alt="image loading error">
+            </div>
+            <div class="col-lg-6 mt-2">
+                <a class="text-warning fs-3 fw-normal" href="https://getbootstrap.com/docs/4.6/getting-started/introduction/" target="_blank">V4</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://www.w3schools.com/bootstrap4/" target="_blank">w3schools</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://startbootstrap.com/" target="_blank">Start Bootstrap</a>
+                <br>
+            </div>
         </div>
-      </div>
     </section>
 
-    <!-- Ends------ -->
 
-
-
-
-
-
-
-
-    <!-- Fnntawesome section ------------------>
-    <section id="fontAwesome" class="s-margin" data-aos="fade-up">
-      <div class="card">
-        <h1>Font Awesome <span>4.7</span></h1>
-        <div class="grid">
-          <img src="https://i2.wp.com/blog.fontawesome.com/wp-content/uploads/2020/08/Logo.png?fit=1800%2C1200&ssl=1"
-            alt="Font awesome cover image">
-          <div class="grid-links">
-            <h3><a href="https://fontawesome.com/v4.7.0/icons/" target="_blank">Icons</a></h3>
-            <h3><a href="https://www.w3schools.com/icons/fontawesome_icons_intro.asp" target="_blank">W3-schools</a>
-            </h3>
-          </div>
+    <!-- fontswesome section -->
+    <section id="fontawesome" class="container bg-dark p-4 rounded my-5">
+        <h2 class="text-center text-uppercase display-4 fw-bold">Font Awesome <span class="text-warning">4.7</span></h2>
+        <div class="row">
+            <div class="col-lg-6 mt-2">
+                <img class="img-fluid" src="./img/fa.jpg" alt="image loading error">
+            </div>
+            <div class="col-lg-6 mt-2" style="overflow: scroll;">
+                <a class="text-warning fs-3 fw-normal" href="https://fontawesome.com/v4.7.0/icons/" target="_blank">Icons 4.7</a>
+                <br>
+                <small>	&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;</small>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://fontawesome.com/v5.15/icons?d=gallery&p=2" target="_blank">Icons 5</a>
+                <br>
+                <small>	&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /&gt;</small>
+            </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Ends------ -->
-
-
-
-
-
-
-
-    <!-- Pictures section ------------------>
-    <section id="images" class="s-margin" data-aos="fade-up">
-      <div class="card">
-        <h1>Free <span>Stock</span> Images</h1>
-        <div class="grid">
-          <img src="https://i.pinimg.com/originals/ec/d7/40/ecd74031b93cbfb2ff7a5da47eaaebba.jpg"
-            alt="Font awesome cover image">
-          <div class="grid-links">
-            <h3><a href="https://unsplash.com/" target="_blank">Unsplash</a></h3>
-            <h3><a href="https://www.pexels.com/" target="_blank">Pexels</a></h3>
-            <h3><a href="https://coverr.co/" target="_blank">Coverr</a></h3>
-            <h3><a href="https://source.unsplash.com/" target="_blank">
-                <Source>
-                </Source> Unsplash
-              </a></h3>
-            <h3><a href="https://pixabay.com/" target="_blank">Pixabey</a></h3>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Ends------ -->
-
-
-
-
-
-    <!-- vector section ------------------>
-    <section id="vector" class="s-margin" data-aos="fade-up">
-      <div class="card">
-        <h1>Free <span>Vector</span> Stock</h1>
-        <div class="grid">
-          <img src="https://i2.wp.com/css-tricks.com/wp-content/uploads/2018/04/react-svg-component-library-7.png?ssl=1"
-            alt="Font awesome cover image">
-          <div class="grid-links">
-
-            <h3><a href="https://undraw.co/illustrations" target="_blank">Undraw</a></h3>
-            <h3><a href="https://www.iconfinder.com/" target="_blank">IconFinder</a></h3>
-
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Ends------ -->
-
-
-
-
-
-
-
-    <!-- vector section ------------------>
-    <section id="designs" class="s-margin" data-aos="fade-up">
-      <div class="card">
-        <h1>Design Ideas and <span>Templates</span></h1>
-        <div class="grid">
-          <img src="https://img.freepik.com/free-photo/word-design-written-top-colorful-geometric-3d-shapes_2227-1663.jpg?size=626&ext=jpg">
-          <div class="grid-links">
-
-            <h3><a href="https://nicepage.com/website-templates" target="_blank">Nicepage</a></h3>
-            <h3><a href="https://www.website.com/website-templates/" target="_blank">Website.com</a></h3>
-            <h3><a href="https://w3layouts.com/templates/" target="_blank">W3 Layouts</a></h3>
-            <h3><a href="https://colorlib.com/" target="_blank">Colorlib</a></h3>
-            <h3><a href="https://freehtml5.co/" target="_blank">Free HTML 5</a></h3>
-            <h3><a href="https://colorlib.com/" target="_blank">Colorlib</a></h3>
-
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Ends------ -->
-
-
-
-
-
-     <!-- Js animations------------------>
-     <section id="js-animation" class="s-margin" data-aos="fade-up">
-      <div class="card">
-        <h1>Javascript <span>Animation</span> libraries</h1>
-        <div class="grid">
-          <img src="https://www.learnacademy.org/wp-content/uploads/2019/08/What-is-JavaScript-Used-For.jpg"
-            alt="js random photo">
-          <div class="grid-links">
-            <h3><a href="https://michalsnik.github.io/aos/" target="_blank">Animate on scroll</a>
-            </h3>
-            <h3><a href="https://flickity.metafizzy.co/" target="_blank">Flickity</a></h3>
-            <h3><a href="https://github.com/mattboldt/typed.js/" target="_blank">Typed.js</a></h3>
-          </div>
-        </div>
-      </div>
     </section>
 
 
 
-    <!-- css generators------------------>
-    <section id="css-genrators" class="s-margin" data-aos="fade-up">
-      <div class="card">
-        <h1>CSS <span>Generators</span></h1>
-        <div class="grid">
-          <img src="https://html-css-js.com/css/generator/box-shadow/style-box-shadow-css-online.jpg"
-            alt="js random photo">
-          <div class="grid-links">
-            <h3><a href="https://app.haikei.app/" target="_blank">Haikei</a>
-            </h3>
-            <h3><a href="https://cssgenerator.org/" target="_blank">Css Generator</a>
-            </h3>
-            <h3><a href="https://getwaves.io/" target="_blank">Get waves</a>
-            </h3>
-            <h3><a href="https://glassmorphism.com/" target="_blank">Glassmorphism</a>
-            </h3>
-            <h3><a href="https://bennettfeely.com/" target="_blank">Bennettfeely</a>
-            </h3>
-            <!-- <h3><a href="https://www.w3schools.com/bootstrap4/" target="_blank">W3-schools</a></h3> -->
-          </div>
+    <!-- images section -->
+    <section id="images" class="container bg-dark p-4 rounded my-5">
+        <h2 class="text-center text-uppercase display-4 fw-bold">Free <span class="text-warning">Stock</span> Images</h2>
+        <div class="row">
+            <div class="col-lg-6 mt-2">
+                <img class="img-fluid" src="./img/image.jpg" alt="image loading error">
+            </div>
+            <div class="col-lg-6 mt-2">
+                <a class="text-warning fs-3 fw-normal" href="https://unsplash.com/" target="_blank">Unsplash</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://www.pexels.com/" target="_blank">Pexels</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://coverr.co/" target="_blank">Coverr</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://source.unsplash.com/" target="_blank">Unsplash API</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://pixabay.com/" target="_blank">Pixabey</a>
+                <br>
+            </div>
         </div>
-      </div>
     </section>
 
 
 
-
-  </main>
-
-
-
-
-
-  <!-- Footer--------- -->
-  <footer class="footer s-margin">
-    <div class="container">
-      
-      <div class="flex">
-        <i class="fa fa-google fa-2x"></i>
-        &nbsp;
-        <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
-      </div>
-
-      <div class="flex">
-        <i class="fa fa-github fa-2x"></i>
-        &nbsp;
-        <a href="https://github.com/michalsnik/aos" target="_blank">Animate on scroll</a>
-      </div>
-
-	<div class="flex">
-        <i class="fa fa-paint-brush fa-2x"></i>
-        &nbsp;
-        <a href="https://flatuicolors.com/" target="_blank">UI colors</a>
-      </div>	
-
-    </div>
-  </footer>
+    <!-- vector section -->
+    <section id="vectors" class="container bg-dark p-4 rounded my-5">
+        <h2 class="text-center text-uppercase display-4 fw-bold">Free <span class="text-warning">Stock</span> Vector</h2>
+        <div class="row">
+            <div class="col-lg-6 mt-2">
+                <img class="img-fluid" src="./img/vector.jpg" alt="image loading error">
+            </div>
+            <div class="col-lg-6 mt-2">
+                <a class="text-warning fs-3 fw-normal" href="https://undraw.co/illustrations" target="_blank">Undraw</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://www.iconfinder.com/" target="_blank">IconFinder</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://storyset.com/" target="_blank">Storyset</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://iradesign.io/illustrations" target="_blank">IRA Design</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://www.heropatterns.com/" target="_blank">Hero Patterns</a>
+                <br>
+            </div>
+        </div>
+    </section>
 
 
+
+    <!-- designs  section -->
+    <section id="designs" class="container bg-dark p-4 rounded my-5">
+        <h2 class="text-center text-uppercase display-4 fw-bold">Designs <span class="text-warning"> and </span> templates</h2>
+        <div class="row">
+            <div class="col-lg-6 mt-2">
+                <img class="img-fluid" src="./img/design.jpg" alt="image loading error">
+            </div>
+            <div class="col-lg-6 mt-2">
+                <a class="text-warning fs-3 fw-normal" href="https://nicepage.com/website-templates" target="_blank">Nicepage</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://www.website.com/website-templates/" target="_blank">Website.com</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://w3layouts.com/templates/" target="_blank">W3 Layouts</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://colorlib.com/" target="_blank">Colorlib</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://freehtml5.co/" target="_blank">Free HTML 5</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://colorlib.com/" target="_blank">Colorlib</a>
+                <br>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- css section -->
+    <section id="css" class="container bg-dark p-4 rounded my-5">
+        <h2 class="text-center text-uppercase display-4 fw-bold">Css <span class="text-warning">Generators</span></h2>
+        <div class="row">
+            <div class="col-lg-6 mt-2">
+                <img class="img-fluid" src="./img/css.jpg" alt="image loading error">
+            </div>
+            <div class="col-lg-6 mt-2">
+                <a class="text-warning fs-3 fw-normal" href="https://app.haikei.app/" target="_blank">Haikei</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://cssgenerator.org/" target="_blank">Css Generator</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://getwaves.io/" target="_blank">Get waves</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://glassmorphism.com/" target="_blank">Glassmorphism</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://bennettfeely.com/" target="_blank">Bennettfeely</a>
+                <br>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- js section -->
+    <section id="js" class="container bg-dark p-4 rounded my-5">
+        <h2 class="text-center text-uppercase display-4 fw-bold">js <span class="text-warning"> animation</span> libraries</h2>
+        <div class="row">
+            <div class="col-lg-6 mt-2">
+                <img class="img-fluid" src="./img/js.jpg" alt="image loading error">
+            </div>
+            <div class="col-lg-6 mt-2">
+                <a class="text-warning fs-3 fw-normal" href="https://michalsnik.github.io/aos/" target="_blank">Animate on scroll</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://flickity.metafizzy.co/" target="_blank">Flickity</a>
+                <br>
+                <a class="text-warning fs-3 fw-normal" href="https://github.com/mattboldt/typed.js/" target="_blank">Typed.js</a>
+                <br>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="mt-5 bg-dark p-4 px-0 pb-0">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link text-light" href="https://fonts.google.com/" target="_blank"><i class="fa fa-google fa-2x text-warning"></i>&nbsp; Google Fonts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="https://flatuicolors.com/" target="_blank"><i class="fa fa-paint-brush fa-2x text-warning"></i>&nbsp; Flat UI</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="https://www.culrs.com/#/" target="_blank"><i class="fa fa-circle-o fa-2x text-warning"></i>&nbsp; Clurs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4" target="_blank"><i class="fa fa-battery-half  fa-2x text-warning"></i>&nbsp; Hex opacity</a>
+            </li>
+        </ul>
+        <p class="mb-0 mt-2 text-center bg-darker p-2">Created by <span class="text-warning">Saqib Aziz</span> &COPY;<span id="time"></span></p>
+
+    </footer>
+
+
+    
 </body>
-
-
-
-
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-  AOS.init({
-    offset: 200,
-    duration: 400
-  });
+    const time = document.getElementById(`time`);
+    const year = new Date();
+    time.innerText = year.getFullYear();
 </script>
-
-<script src="./script/app.js"></script>
-
-
 </html>
